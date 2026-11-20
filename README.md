@@ -50,3 +50,5 @@ Respuesta:
 ## Autor
 
 **Tomás Millán**: publicista y desarrollador frontend, fundador de [TML Studio](https://tmlstudio.online).
+
+[LinkedIn](https://www.linkedin.com/in/tomasmillanlanhozo/) · [GitHub](https://github.com/tomasmillan)
