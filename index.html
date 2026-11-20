@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Copys</title>
+    <meta name="description" content="Generá variaciones de copys para tus anuncios de Meta y Google Ads con inteligencia artificial.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Generador de Copys</h1>
+        <p>Escribí una frase de tu anuncio y la IA te devuelve variaciones con distintos enfoques, listas para Meta y Google Ads.</p>
+    </header>
+
+    <main>
+        <section id="copy-generator">
+            <h2>Generá tus copys</h2>
+
+            <form id="copy-form">
+                <label for="frase">Frase del anuncio:</label>
+                <textarea id="frase" name="frase" minlength="3" maxlength="500" placeholder="Ej: Iluminá tu cuarto con una luna de verdad" required></textarea>
+
+                <label for="cantidad">Cantidad de variaciones:</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="3" required>
+
+                <button type="submit" id="btn-generar">Generar copys</button>
+            </form>
+
+            <p id="estado"></p>
+
+            <div id="generated-copy">
+                <h3>Copys generados:</h3>
+                <ul id="copy-list"></ul>
+            </div>
+        </section>
+
+        <section id="sobre-proyecto">
+            <h2>Sobre el proyecto</h2>
+            <p>Esta herramienta nació como proyecto del curso de Python e IA que estoy haciendo. Vengo de la publicidad y el diseño web, y quise construir algo que uso todos los días: variaciones de copys para testear en campañas.</p>
+            <ul class="stack">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Claude API</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto de aprendizaje · Hecho por Tomás Millán · <span id="anio"></span></p>
+        <nav>
+            <a href="https://tmlstudio.online" target="_blank" rel="noopener">TML Studio</a>
+            <a href="https://github.com/tomasmillan" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:info@tmlstudio.online">Contacto</a>
+        </nav>
+    </footer>
+</body>
+</html>
